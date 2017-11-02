@@ -1,5 +1,0 @@
-rootProject.name = 'example'
-
-include ':app'
-include ':react-native-logentries'
-project(':react-native-logentries').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-logentries/android')
